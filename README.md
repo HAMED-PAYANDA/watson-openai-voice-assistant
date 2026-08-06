@@ -94,7 +94,8 @@ docker run -p 8000:8000 voice-chatapp-powered-by-openai
 ```
 5. Access the Application
 Open your web browser and navigate to http://localhost:8000. Ensure you grant the browser permission to access your microphone!
-🧠 Code Highlight: The Orchestration Logic
+
+## 🧠 Code Highlight: The Orchestration Logic
 This block demonstrates how the Flask backend acts as the orchestrator, passing data seamlessly between OpenAI and IBM Watson.
 ```python
 @app.route('/process-message', methods=['POST'])
