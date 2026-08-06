@@ -73,7 +73,7 @@ graph TD;
  ┣ 📜 server.py           # Flask application and route definitions
  ┗ 📜 worker.py           # Core logic for OpenAI and Watson API integrations
 ```
-💻 Local Setup & Execution
+## 💻 Local Setup & Execution
 1. Clone the repository
 ```bash
 git clone [https://github.com/HAMED-PAYANDA/watson-openai-voice-assistant.git](https://github.com/HAMED-PAYANDA/watson-openai-voice-assistant.git)
