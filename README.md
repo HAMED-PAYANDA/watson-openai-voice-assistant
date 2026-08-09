@@ -7,7 +7,7 @@
 ![IBM Watson](https://img.shields.io/badge/IBM_Watson-Speech_Libraries-052FAD?logo=ibm&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 [![IBM Certification](https://img.shields.io/badge/IBM-AI%20Developer%20Program-blue?style=flat&logo=ibm)](https://cognitiveclass.ai/)
-[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
 ## 📖 Project Overview
 A full-stack, AI-powered virtual assistant that seamlessy bridges human speech and large language models. This application captures user audio, converts it to text using IBM Watson's Speech-to-Text, processes the input through OpenAI's GPT for intelligent conversational responses, and synthesizes the AI's reply back into natural human speech using Watson's Text-to-Speech capabilities. 
