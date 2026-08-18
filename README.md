@@ -9,8 +9,12 @@
 [![IBM Certification](https://img.shields.io/badge/IBM-AI%20Developer%20Program-blue?style=flat&logo=ibm)](https://cognitiveclass.ai/)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
+---
+
 ## 📖 Project Overview
 A full-stack, AI-powered virtual assistant that seamlessy bridges human speech and large language models. This application captures user audio, converts it to text using IBM Watson's Speech-to-Text, processes the input through OpenAI's GPT for intelligent conversational responses, and synthesizes the AI's reply back into natural human speech using Watson's Text-to-Speech capabilities. 
+
+---
 
 ## 📸 The Visual Proof
 ![Voice Assistant Demo](demo3.png)
@@ -56,7 +60,10 @@ graph TD;
     E -->|Base64 Encoded Audio| B;
     B -->|Plays Audio| H[User Hears Response];
 ```
+---
+
 ## 📂 Repository Structure
+
 ```text
 📦 watson-openai-voice-assistant
  ┣ 📂 certs/              # SSL/CA certificates for secure API communication
@@ -75,7 +82,10 @@ graph TD;
  ┣ 📜 server.py           # Flask application and route definitions
  ┗ 📜 worker.py           # Core logic for OpenAI and Watson API integrations
 ```
+---
+
 ## 💻 Local Setup & Execution
+
 1. Clone the repository
 ```bash
 git clone [https://github.com/HAMED-PAYANDA/watson-openai-voice-assistant.git](https://github.com/HAMED-PAYANDA/watson-openai-voice-assistant.git)
@@ -96,6 +106,8 @@ docker run -p 8000:8000 voice-chatapp-powered-by-openai
 ```
 5. Access the Application
 Open your web browser and navigate to http://localhost:8000. Ensure you grant the browser permission to access your microphone!
+
+---
 
 ## 🧠 Code Highlight: The Orchestration Logic
 This block demonstrates how the Flask backend acts as the orchestrator, passing data seamlessly between OpenAI and IBM Watson.
@@ -126,8 +138,18 @@ def process_message_route():
     )
     return response
 ```
-👨‍💻 Author
-Hamed Payanda
-•	GitHub: @HAMED-PAYANDA
-Completed as part of the IBM AI Developer program.
+---
+## 📜 License 
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+---
+
+## 👤 Author
+
+**Hamed Payanda**
+* **GitHub:** [@HAMED-PAYANDA](https://github.com/HAMED-PAYANDA)
+* Completed as part of the **IBM AI Developer Program**.
+
+
 
